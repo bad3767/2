@@ -1,0 +1,40 @@
+
+ Student_Id :dfa
+ Student_Name:fva
+ Course:faa
+ Amount:fsa
+ Bill_Date :fda
+
+
+
+ Student_Id :27
+ Student_Name:Magesh
+ Course:Python
+ Amount:50000
+ Bill_Date :14/10/2022
+
+
+
+ Student_Id :285
+ Student_Name:Balu
+ Course:Python
+ Amount:8000
+ Bill_Date :14/10/2022
+
+
+
+ Student_Id :dbla
+ Student_Name:acbj
+ Course:acs bj
+ Amount:ascb
+ Bill_Date :asascbj
+
+
+
+ Student_Id :ascjk
+ Student_Name:bafo
+ Course:akenf
+ Amount:akefj
+ Bill_Date :kajb11
+
+
