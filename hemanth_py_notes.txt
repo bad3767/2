@@ -1,0 +1,1344 @@
+Python 
+
+Adv:
+-frequently used in all industry
+-Easy learn
+-code & syntax
+-open source
+-Huge library
+-interpreted
+-high performance & high security
+
+output:
+-Desktop application
+-Bank software
+-Billing software
+-Hotel management software
+-Booking portal
+-Music software
+-medical billing software
+,.................................................
+
+software:
+-python IDLE 
+-spyder
+-pycharm
+
+https://www.python.org/downloads/windows/
+
+2 mode :
+-shell mode
+-script mode
+
+
+Data types:
+a = 10
+
+integer == real numbers... -1,8
+	int  
+a = -10
+print(type(a))
+
+float == decimal values... -3.4...  9.4
+	float 
+a = 4.55
+print(type(a))
+
+String == Alphabetical lettrs / words 
+must enclosed within quotes
+	x = 'a'
+	x= 'arun'
+
+boolean == True / False
+	bool  
+
+Operators 7 types
+
+
+Arithmetic operator  	+ 	-	*	/	% (modulo 5%3 =2) ** power		o/p = value			  
+
+Relational op			>	<	>= 	<=	==	!=						o/p = True/false
+
+logical op				and 	or		not								o/p = True/false
+
+Assignment op			= 	+=		-=		*=		/=					o/p = value
+
+Bitwise op				&	|	^(exor)	~(tilt)	<<(left shift)	
+					
+							>>(right shift)							o/p = value
+
+Spcl 2 types of op		t/F
+
+Membership op -- 	in 		not in				a = [1,2,3]			2 in a
+
+Identity op 	--	is 		is not				a=10		b=10		a is b
+
+
+commentline
+
+# - single line
+""" 	-----
+	------ """" -->multiple line
+
+logical op				and 	or		not								o/p = True/false
+
+
+T = 1 	F = 0
+AND -------> 2cond ip -- 1 o/p
+c1	c2	op						c = (cond1) and (cond2)
+
+T	T	T
+T	F	F
+F	T	F
+F	F	F
+
+
+OR--------->
+c1	c2	op						c = (cond1) OR (cond2)
+
+T	T	T
+T	F	T
+F	T	T
+F	F	F
+
+NOT-------->
+
+T	F
+F	T
+
+Assignment op			= 	+=		-=		*=		/=					o/p = value
+
+a = 10
+
+a += 5			a = a+5
+					10+5
+				a = 15
+
+a -= 3			a = a - 3
+					15 - 3
+					12
+a*=2			a = a* 2
+					12 * 2  == 24
+a/=4 			a= a/4  === 6
+
+a %= 5 			1
+
+
+Bitwise op				&		|		^(exor)		~(tilt)		<<(left shift)	
+					
+							>>(right shift)											o/p = value
+
+a = 9 
+b = 12			1 =t 	0=f
+
+		8	4	2	1
+
+9 => 	1	0	0	1
+12=>	1	1	0	0
+		---------------
+a&b		1	0	0	0	= 8
+
+		8	4	2	1
+
+9 => 	1	0	0	1
+12=>	1	1	0	0
+		---------------
+a|b		1	1	0	1	= 13
+
+
+
+EX-OR--------->
+c1	c2	op						c = (cond1) OR (cond2)
+
+T	T	F
+T	F	T
+F	T	T
+F	F	F
+
+		8	4	2	1
+
+9 => 	1	0	0	1
+12=>	1	1	0	0
+		---------------
+a^b		0	1	0	1	= 5
+
+~ = 1's complementary
+
+
+		8	4	2	1
+				1
+9 => 	1	0	0	1
+	 -				1
+	------------------
+	 -	1	0	1	0
+
+9 => -10
+12 => -13
+3 => -4
+8 => -9
+
+<< leftshift
+
+		32	16	8	4	2	1
+
+9 => 			1	0	0	1
+
+9<<1=>		1	0	0	1		=>18
+9<<2=>	1	0	0	1			=>36
+
+>> rightshift
+
+		8	4	2	1
+
+9 => 	1	0	0	1
+
+9>>1=>		1	0	0	=> 4
+
+9>>2 =>			1	0	=> 2
+
+print("Arithmetic Operators")
+
+a = 3
+b= 4
+
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a%b)
+print(a**b)
+
+print("Relational Operators")
+
+a = 3
+b= 4
+
+print(a>b)
+print(a<b)
+print(a>=b)
+print(a<=b)
+print(a==b)
+print(a!=b)
+
+print("Logical operator")
+
+a = 4
+b= 7
+
+c = (a>b) or (b<=8)
+print(c)
+
+c = (a>b) and (b<=8)
+print(c)
+
+c = not(a>b)
+print(c)
+
+
+print("Bitwise Operator")
+
+a=12
+b=9
+
+print(a>>1)
+
+print(a<<1)
+
+print(~a)
+print(a&b)
+print(a|b)
+Assignment operator
+
+=
++=
+-=
+*=
+/=
+
+arun =7
+print(arun)
+arun +=5
+print(arun)
+arun -=3
+print(arun)
+arun *=2
+print(arun)
+arun /=6
+print(arun)
+
+
+print("Membership Operator")
+a=[1,3,4,5,6]
+
+l= 2 in a 
+print(l)
+
+l= 2 not in a 
+print(l)
+c = 'Arun'
+
+print('r' in c)
+
+print("Identity Operator")
+
+a = 4
+b = 6
+c = 'Arun'
+d = 6
+f= 'dafs'
+
+print(a is b)
+print(d is b)
+print(a is not b)
+print(c is f)
+
+User input
+
+a = float(input("enter a value: "))
+a = int(input("enter a value: "))
+
+Control Statements 
+
+Branching	- if ; if else ; elif ; nested if  ==> conditional checking stmts
+
+Looping		- for ; while ; break ; continue 	==>Squence order
+
+
+a = 10
+if cond :
+	//stmt
+
+if a>20:
+	print("a value is grt than 20")
+else:
+	print("a value is lsr than 20")
+
+"""
+    age = ?
+    18> === eligible
+    <18 === not eligibe
+"""
+
+age = int(input("Enter ur age: "))
+
+if age>=18:
+    print("Eligible")
+else:
+    print("Not Eligible")
+
+ elif -- multiple cond
+
+if cond:
+	//stmt
+
+elif cond:
+	//stmt
+
+elif cond:
+	//stmt
+
+elif cond:
+	//stmt
+
+else:
+	//stmt
+
+"""
+    mark = ?
+    45 == justpass
+    46 - 65 == C Grade
+    66 - 85 == B Grade
+    86 - 100 = A Grade
+    <45 = fail
+
+    <0 >100 - pls enter mark within 100
+
+	no = ?
+	0 9 = single digit
+	10 99 = double
+
+"""
+
+mark = int(input("Enter marks: "))
+
+if mark == 45:
+    print("Just pass")
+
+elif  mark>=46 and mark<=65:
+    print("C Grade")
+
+
+elif  mark>=66 and mark<=85:
+    print("B Grade")
+
+
+elif  mark>=86 and mark<=100:
+    print("A Grade")
+
+elif mark<0 or mark>100:
+    print("pls enter mark within 100")
+
+else:
+    print("Fail")
+
+Nested if - if within if 
+
+if cond :
+	//stmt
+	if cond:
+		//stmt
+	else:
+		//stmt
+else:
+	//Stmt
+	if cond:
+		//stmt
+	else:
+		//stmt
+
+"""
+    age = ?
+    >=18 == eligible
+
+        18  -  45  == junior citizen
+        >45 = senior
+
+    <18 == not eligible
+
+        1 - 10 == kids
+        >10 == adults
+
+"""
+
+age = int(input("Enter ur age: "))
+
+if age>=18:
+    print("Eligible")
+    if age>=18 and age<=45:
+        print("junior citizen")
+    else:
+        print("senior citizen")
+else:
+    print("Not Eligible")
+    if age>=1 and age<=10:
+        print("kids")
+    elif age<=0:
+        print("enter a valid age")
+    else:
+        print("Adults")
+
+************************************************
+Looping Statements
+
+for 
+
+for any_variable in range():
+	//stmts
+
+for i in range(10):
+	print(i)
+
+
+print(list(range(10)))
+print(list(range(2,10)))
+print(list(range(1,20,2)))
+print(list(range(1,20,5)))
+
+"""
+    no stud = ?
+    for...
+
+    tam =?
+    eng =?
+    mat =?
+    taotal 
+
+"""
+
+stud = int(input("Enter no of studs: "))
+
+for i in range(stud):
+    print("Student",i+1)
+    t = int(input("Tam marks: "))
+    e = int(input("Eng marks: "))
+
+    m = int(input("Mat marks: "))
+    tot = t+e+m
+    print(tot)
+
+
+initialization
+while cond:
+	//stmt
+
+i=0
+while (i<10):
+	print(i)
+	i += 1
+
+i=0
+while i<10:
+    i += 1
+    if i == 5:
+        break
+    print(i)
+    
+
+
+i=0
+while i<10:
+    i += 1
+    if i == 5:
+        continue
+    print(i)
+  
+functions:---
+
+Builtin fxn
+
+import random
+"""
+import math
+print(math.factorial(4))
+print(math.sin(3))
+print(math.pow(2,3))
+print(math.pi)
+"""
+
+c = random.randint(1000,9999)
+print(c)
+
+e = c
+print(e)
+
+import sys
+z=sys.modules
+print(z)
+
+jk file.....
+def add(x,y):
+    return x+y
+
+def sub(x,y):
+    return x-y
+
+def mul(x,y):
+    return x*y
+
+def div(x,y):
+    return x/y
+
+v file....
+import jk
+
+print(jk.add(2,3))
+print(jk.sub(6,2))
+
+modules and packages - collection of modules
+
+
+
+userdefined fxn
+
+def add():
+	//stmts
+
+function call
+
+fxn_name()
+
+def add():
+	a = 10
+	b = 20
+	print(a+b)
+
+add()
+
+parameters
+
+def add(a,b):
+	print(a+b)
+
+add(2,2)
+
+def add(a,b,c):
+	
+    print(a+b+c)
+
+def sub(a,b):
+
+    print(a-b)
+
+add(6,8,5)
+sub(8,2)
+
+arguments passing :- 3 typess
+
+default arguments
+
+def greet(name,msg):
+	print("Hello",name,msg)
+
+greet("aaa")
+
+keyword arguments
+
+def greet(name="aaa",msg="Welcome"):
+    print("Hello",name,msg)
+
+greet()
+
+arbitary arguments
+
+def greet(*names):
+    
+    for i in range(5):
+        print("hello",names[i])
+
+greet("aaaa","bbbb","cccc","dddd","dffff")
+
+recusive function === fxn with in fxn
+
+def add():
+    a = int(input("a value: "))
+    b=  int(input("b value: "))
+    print(a+b)
+    add()
+
+add()
+
+x = int(input("enter fact value: "))
+
+
+def factorial(x):
+	if x == 1:
+		return 1
+	else:
+		return x* factorial(x-1)
+
+print(factorial(x))
+
+lambda : 
+
+a = lambda parameters : cond
+print(a(parameter value))
+
+a = lambda x,y:x+y
+print(a(6,7))
+
+filter 
+
+a = [2,4,3,1,5,6,8,7,9,12,23,35]
+
+s = list(filter(lambda x:x%2 ==1,a))
+print(s)
+
+map
+
+a = [2,4,3,1,5,6,8,7,9,12,23,35]
+
+s = list(map(lambda x:x+2,a))
+print(s)
+
+OOPs Concepts 	object oriented Programming
+
+Class - attributes/properties  and behavior
+		blue print of obj
+ex  human
+attributes - legs, hands, color, height, weight......
+behaviour - eat,sleep,run,walk....
+
+objs  - real world any objects
+
+class human():
+	def attributes(self,legs,hands,color):
+		self.a = legs
+		self.b = hands
+		self.c = color
+		print(self.a,self.b,self.c)
+	def __init__(self,legs,hands,color):
+        self.a = legs
+        self.b = hands
+        self.c = color
+        print(self.a,self.b,self.c)
+	def eat(self):
+		print("eating....")
+	def run(self):
+		print("runing....")
+	def walk(self):
+		print("walking....")
+
+#obj = class_name()
+g = human(2,2,"crimson")
+g.attributes(2,2,"crimson")
+g.eat()
+g.run()
+g.walk()
+
+
+Inheritance 
+
+single inheritance 
+multiple
+multilevel
+hybrid
+Hierarchical
+
+Polymorphism 	exisisting in more than one forms
+
+fxn_overloading
+class A():
+   def add(self,a,b):
+        print(a+b)    
+
+class B(A):
+    def add(self,a,b,c):
+        print(a+b+c)  
+
+
+h = B()
+h.add(2,3,9)
+
+d = A()
+d.add(2,5)
+fxn_overriding
+
+class A():
+    def eat(self):
+        print("Eating....AAAAa")
+
+class B(A):
+    def eat(self):
+        A.eat(self)
+        print("Eating....BBBBB")
+
+
+h = B()
+h.eat()
+
+**************************************************
+File operation:
+
+doc,pdf,ppt,txt
+
+open()
+read()
+close()
+remove()
+
+Variable usage x,w,r,a
+
+x = to create a new file
+w = to write
+a = to append
+r = to read
+
+# to create a file
+
+d = open("file_path\\file_name.extn","x")
+print("file created")
+
+# to write
+
+d = open("file_path\\file_name.extn","w")
+d.write("Hello everyone")
+d.close()
+print("file is written")
+
+# to append
+
+d = open("file_path\\file_name.extn","a")
+d.write("Hello everyone")
+d.close()
+print("file is appended")
+
+#to read
+d = open("D:\\python\\sample.txt","r")
+
+print(d.read())
+d.close()
+print("file is read")
+
+d = open("C:\\Users\\Asvitha\\OneDrive\\Desktop\\hemanth py notes.txt","r")
+
+print(d.read())
+d.close()
+print("file is read")
+
+import os
+os.remove("file_path\\filename.extn")
+print("deleted")
+
+Data Structures:------
+
+List   - []
+Tuple  - ()
+set    - {}
+Dictionary - {key : value, key:value} ==>dict
+
+Stack and Queue
+
+a = [1,2,34,4]
+print(type(a))
+a = (1,2,34,4)
+print(type(a))
+a = {1,2,34,4}
+print(type(a))
+
+s = {1:'aaa',2:'bbb'}
+print(type(s))
+
+List   []
+a=[1,2,3,4,5,6,7,8]
+print(type(a))
+
+a.append(9)
+print(a)
+a.append([3,5,6])
+print(a)
+a.clear()
+print(a)
+a=[1,2,3,4,5,6,7,8]
+b = a.copy()
+print(b)
+print(a.count(7))
+a.extend([3])
+print(a)
+a.extend([2,4,5])
+print(a)
+print(a.index(5))
+a.insert(7,55)
+print(a)
+a.pop()
+print(a)
+a.pop(7)
+print(a)
+a.remove(6)
+print(a)
+a.reverse()
+print(a)
+a.sort(reverse = True)
+print(a)
+
+tuple   ()
+
+a=(1,2,3,4,5,6,7,8)
+print(type(a))
+
+print(a.count(4))
+print(a.index(3))
+
+
+set {}
+
+a = {2,4,3,5,7,8,9}
+d = {4,3}
+b = {1,3,2,5,6,9,0}
+
+print(type(a))
+
+print(a.union(b))
+print(a.intersection(b))
+print(b.difference(a))
+print(a.difference(b))
+a.pop()
+print(a)
+print(d.issubset(a))
+
+dictionary  {key:value}
+
+a = {"name":"Arjun","age":20,"place":"chennai"}
+print(type(a))
+print(a["name"])
+print(a.keys())
+print(a.values())
+print(a.items())
+
+a["place"] = "Trichy"
+print(a["place"])
+
+
+******************************************************** Error Handling
+
+Errors and Exceptions Handling:
+
+Error:
+syntax
+attribute
+type
+value
+zero div error
+indent error
+index
+name
+import
+key
+memory
+
+
+try   -   coding part
+except		- handle the error
+finally	- code.. it run despites of error
+raise - manually raise the error
+
+try:
+    a= int(input("Enter a: "))
+    b = int(input("Enter b: "))
+    print(a/b)
+    print("hsfgdfhgvsg")
+except ValueError:
+    print("pls enter no only")
+
+except ZeroDivisionError:
+    print("dont div by 0")
+
+except:
+    print("err occured")
+finally:
+    print("prgm terminated")
+
+
+try:
+    age=int(input("agee: "))
+    if age>=18:
+        print("eligible to vote")
+
+    else:
+        raise NameError
+except NameError:
+    print("Not Eligible ")
+
+
+try:
+    d = open("D:\\python\\sample.txt","x")
+    print("sds")
+except FileExistsError:
+    print("File already exist")
+
+
+Reference Types
+iterator:
+genrator
+closure
+decorator
+iterate data in sequence order 
+methods:
+iter() - loop
+next()-next value
+
+a = [4, 7, 0, 9, 8, 5]
+
+my_iter = iter(a)
+
+
+print(next(my_iter))
+
+print(next(my_iter))
+
+print(next(my_iter))
+ 
+print(next(my_iter)) 
+
+print(next(my_iter))
+                     
+print(next(my_iter))
+
+next(my_iter)
+************************ genrator
+yield()
+
+def my_gen():
+    n = 1
+    print('Hello Everyone')
+    yield n
+
+    n+=1
+    print("hello")
+    yield n
+
+    n+=1
+    print("happy")
+    yield n
+
+    n+=1
+    print("end")
+    yield n
+    
+for item in my_gen():
+    print(item)
+**************************** closure and decorator
+def a(id):
+    def admin_view():
+        print(id)
+    def stud_view():
+        print(id)
+    return admin_view 
+
+s = a(116011012462)
+s()
+d = s
+d()
+
+-----------------
+def genrator():
+   def gen():
+      a = 'shd'
+      yield a
+
+   def end():
+      a = "BYE"
+      b = iter(a)
+      print(next(b))
+      print(next(b))
+      print(next(b))
+   return gen
+
+a = genrator()
+
+print(*a())
+
+********************************** Threading
+
+import threading
+import time
+
+class myThread (threading.Thread):
+   def __init__(self, threadID, name, counter):
+      threading.Thread.__init__(self)
+      self.threadID = threadID
+      self.name = name
+      self.counter = counter
+
+   def run(self):
+      print (str(self.threadID)+" Starting " + self.name)
+      print_time(self.name, 3, self.counter)
+      print (str(self.threadID)+"Exiting " + self.name)
+
+def print_time(threadName, counter, delay):
+   while counter:
+      
+      time.sleep(delay)
+      print ("%s: %s" % (threadName, time.ctime()))
+      counter -= 1
+
+
+thread1 = myThread(1, "aaa", 2)
+thread2 = myThread(2, "bbb", 1)
+thread3 = myThread(3,"ccc",2)
+
+thread1.start()
+thread1.join()
+thread2.start()
+thread2.join()
+thread3.start()
+thread3.join()
+
+**************************************** GUI
+
+tkinter - module
+from tkinter import *
+
+z = Tk()
+
+z.title("MyFrame")
+z.geometry("400x500")
+
+k = Label(z,text="WELCOME!")
+k.pack()
+
+k = Label(z,text="WELCOME!")
+k.place(x = 100,y=100)
+
+k = Label(z,text="WELCOME!")
+k.grid(row=1,column=1)
+
+k1 = Label(z,text="WELCOME!")
+k1.grid(row=5,column=6)
+
+z.mainloop()
+
+***************** Login Form
+
+from tkinter import *
+
+z = Tk()
+
+z.title("MyFrame")
+z.geometry("400x500")
+
+k = Label(z,text="Login Form!",fg="red",bg="yellow",font=("Times New Roman",15,"italic"))
+k.place(x = 150,y=50)
+
+un = Label(z,text="Username")
+un.place(x=100,y=100)
+
+e1 = Entry(z)
+e1.place(x=200,y=100)
+
+psw = Label(z,text="Password").place(x=100,y=150)
+
+e2 = Entry(z)
+e2.place(x=200,y=150)
+
+b = Button(z,text="Submit")
+b.place(x = 150,y=200)
+
+z.mainloop()
+
+
+***********************
+def msg():
+   messagebox.showinfo("Alert","Python is a prgm  language")
+
+
+b1 = Button(z,text="Python",fg="red",bg="yellow",font=("Times New Roman",15),command=msg)
+b1.place(x = 150,y=350)
+
+********************
+from tkinter import *
+from tkinter import messagebox
+
+z = Tk()
+
+z.title("MyFrame")
+z.geometry("400x500")
+o = StringVar()
+o1 = IntVar()
+
+chk = IntVar()
+
+k = Label(z,text="Bio Data!",fg="red",bg="yellow",font=("Times New Roman",15,"italic"))
+k.place(x = 150,y=50)
+
+un = Label(z,text="Name")
+un.place(x=100,y=100)
+
+e1 = Entry(z)
+e1.place(x=200,y=100)
+
+psw = Label(z,text="F_Name").place(x=100,y=150)
+
+e2 = Entry(z)
+e2.place(x=200,y=150)
+
+g = Label(z,text="Gender")
+g.place(x=100,y=200)
+
+m = Radiobutton(z,text="Male",variable=o1,value=1)
+m.place(x=200,y=200)
+
+f = Radiobutton(z,text="Female",variable=o1,value=2)
+f.place(x=270,y=200)
+
+v = Checkbutton(z,text="Check it",variable=chk,onvalue=1,offvalue=0)
+v.place(x=150,y=250)
+
+def sub():
+   s1=e1.get()
+   print(s1)
+   s4=e2.get()
+   print(s4)
+   s2=o1.get()
+   if s2==1:
+      print("Male")
+   else:
+      print("Female")
+
+   s3=chk.get()
+   if s3==1:
+      print("Checked")
+   else:
+      print("Unchecked")
+
+
+b = Button(z,text="Submit",command=sub)
+b.place(x = 150,y=300)
+
+
+z.mainloop()
+
+***************************************** Menubar
+from tkinter import Menu ,Tk
+  
+z = Tk()  
+menubar = Menu(z)  
+file = Menu(menubar, tearoff=0)  
+file.add_command(label="New")  
+file.add_command(label="Open")  
+file.add_command(label="Save")  
+file.add_command(label="Save as...")  
+file.add_command(label="Close")  
+  
+file.add_separator()  
+  
+file.add_command(label="Exit", command=z.quit)  
+  
+menubar.add_cascade(label="File", menu=file)  
+
+edit = Menu(menubar, tearoff=0)  
+edit.add_command(label="Undo")  
+  
+edit.add_separator()  
+  
+edit.add_command(label="Cut")  
+edit.add_command(label="Copy")  
+edit.add_command(label="Paste")  
+edit.add_command(label="Delete")  
+edit.add_command(label="Select All")  
+  
+menubar.add_cascade(label="Edit", menu=edit)  
+help = Menu(menubar, tearoff=0)  
+help.add_command(label="About")  
+menubar.add_cascade(label="Help", menu=help)  
+  
+z.config(menu=menubar)  
+z.mainloop()
+
+**********************************8 shell and frame o/p
+from tkinter import *
+from tkinter import messagebox
+
+z = Tk()
+
+z.title("MyFrame")
+z.geometry("800x500")
+o = StringVar()
+o1 = IntVar()
+
+chk = IntVar()
+
+k = Label(z,text="Bio Data!",fg="red",bg="yellow",font=("Times New Roman",15,"italic"))
+k.place(x = 150,y=50)
+
+un = Label(z,text="Name")
+un.place(x=100,y=100)
+
+e1 = Entry(z)
+e1.place(x=200,y=100)
+
+psw = Label(z,text="F_Name").place(x=100,y=150)
+
+e2 = Entry(z)
+e2.place(x=200,y=150)
+
+g = Label(z,text="Gender")
+g.place(x=100,y=200)
+
+m = Radiobutton(z,text="Male",variable=o,value="male")
+m.place(x=200,y=200)
+
+f = Radiobutton(z,text="Female",variable=o,value="female")
+f.place(x=270,y=200)
+
+v = Checkbutton(z,text="Check it",variable=chk,onvalue=1,offvalue=0)
+v.place(x=150,y=250)
+
+ans1 = Label(z,text="xxx")
+ans1.place(x=450,y=100)
+
+ans2 = Label(z,text="yyy")
+ans2.place(x=450,y=150)
+
+ans3 = Label(z,text="yyy")
+ans3.place(x=450,y=200)
+
+ans4 = Label(z,text="ccc")
+ans4.place(x=450,y=250)
+def sub():
+   s1=e1.get()
+   print(s1)
+   s4=e2.get()
+   print(s4)
+   s2=o.get()
+   print(s2)
+   s3=chk.get()
+   if s3==1:
+      h="checked"
+      print(h)
+   else:
+      h="Unchecked"
+      print(h)
+
+   ans1.config(text="Name : "+s1)
+   ans2.config(text="F_name :"+s4)
+   ans3.config(text="Gender : "+s2)
+   ans4.config(text="Status : "+h)
+
+b = Button(z,text="Submit",command=sub)
+b.place(x = 150,y=300)
+
+
+z.mainloop()
+
+
+********************************************* Database
+to get username password:-
+D:\exe files\mysql-5.7.24-winx64\mysql-5.7.24-winx64\bin>mysqld --console --initialize
+.
+.
+.
+2022-06-25T06:47:15.178027Z 1 [Note] A temporary password is generated for root@localhost: ebs8gUVrld_j
+--------------------------------------------
+to initiate server:-
+D:\exe files\mysql-5.7.24-winx64\mysql-5.7.24-winx64\bin>mysqld --console		Gkm#y1C;%r6y
+.
+.
+.
+.
+Version: '5.7.24'  socket: ''  port: 3306  MySQL Community Server (GPL)
+-----------------------------------------------
+to begin mysql 
+
+D:\exe files\mysql-5.7.24-winx64\mysql-5.7.24-winx64\bin>mysql -u root -p
+Enter password: *************
+--------------------------------------------------
+to alter password
+mysql> alter user "root"@"localhost" identified by "aaaa";
+----------------------------------------------
+>>> show databases;
+
+>>> create database school;
+
+>>> use school;
+-----------------------------------------
+to create table
+>>> table - student --> id , name , ph_no , add , std					
+		 -  employee --> e_id, e_name , desig , ph_no , location
+
+syntax for table creation 
+
+ create table table_name (element type(size),element type(size));
+mysql> create table student(id int(3),name char(30),ph_no int(10),address char(50),std char(10));
+
+>>> show tables;
+
+mysql> create table employee   (e_id int(4),e_name char(40),desig char(30),ph_no int(10),location char(30));
+-------------------------------------------------
+to insert value into tables
+
+syntax
+>>> insert into table_name values(101,"xxx",123445566,"23,435regfdbd00","5th std");
+
+mysql> insert into student values(101,"xxx",123445566,"23435regfdbd00","5th std");
+Query OK, 1 row affected (0.02 sec)
+
+to view elements in table...
+>>> select * from table_name;
+>>> select id,name from student;
+-------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
